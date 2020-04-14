@@ -1,1 +1,22 @@
-// Mixins in here
+.funBusTitle() {
+    color: @shark;
+    font-size: 4rem;
+    background-color: red;
+}
+
+.topLinks() {
+    color: @shark;
+    text-decoration: none;  
+    background-color: green;
+}
+
+.navigation-border() {
+    border-bottom: 2px dashed @silver;
+}
+
+.flexy(@direction, @justify) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify; 
+
+}
