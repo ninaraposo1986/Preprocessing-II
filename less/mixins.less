@@ -1,6 +1,6 @@
-.funBusTitle () {
+.funBusTitle() {
     color: @shark;
-    font-size: 2rem;
+    font-size: 4rem;
     background-color: red;
 }
 
@@ -12,4 +12,11 @@
 
 .navigation-border() {
     border-bottom: 2px dashed @silver;
+}
+
+.flexy(@direction, @justify) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+
 }

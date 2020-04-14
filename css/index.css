@@ -168,13 +168,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  border-bottom: 2px dashed #C0C0C0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 header h1 {
   color: #212529;
-  font-size: 2rem;
+  font-size: 4rem;
   background-color: red;
 }
 header nav {
-  border-bottom: 2px dashed #C0C0C0;
+  color: #212529;
+  text-decoration: none;
+  background-color: green;
 }
 .footer {
   width: 100%;
