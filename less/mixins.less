@@ -1,13 +1,12 @@
 .funBusTitle() {
     color: @shark;
     font-size: 4rem;
-    background-color: red;
 }
 
 .topLinks() {
     color: @shark;
-    text-decoration: none;  
-    background-color: green;
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 
 .navigation-border() {
@@ -18,5 +17,13 @@
     display: flex;
     flex-direction: @direction;
     justify-content: @justify; 
+}
+
+.buttonMaker(@color) {
+    background-color: @color;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+
 }
 

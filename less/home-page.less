@@ -2,11 +2,16 @@
 
   .content-section {
     margin: 30px 0;
+    margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+   .welcome {
+     margin-top: 20px;
+     .navigation-border();
+     margin-bottom: 20px;
+   }
     
     .text-content {
       width: 48%;
@@ -22,6 +27,7 @@
       }
     }
   }
+
 
   .inverse-content {
     padding-bottom: 30px;
@@ -57,5 +63,8 @@
       width: 30%;
       margin-bottom: 30px;
     }
+  }
+  button {
+    .buttonMaker(@button-bg)
   }
 }// home

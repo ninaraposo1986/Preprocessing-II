@@ -2,19 +2,20 @@
 header {
     margin: 0 auto;
     .navigation-border();
-    width: 42%;
-    .flexy(row, space-between);
+    
+    .mainNav {
+        .flexy(row, space-between);
+        align-items: center;
+        
+    }
+
     h1 {
         .funBusTitle();
     }
     nav {
         width: 50%;
         .topLinks();
-        .flexy(row, space-between);
+        .flexy(row, space-evenly);
+         align-items: center;
     }
-
-
-
-
 }
-
