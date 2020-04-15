@@ -169,7 +169,9 @@ img {
   margin: 0 auto;
 }
 header {
+  margin: 0 auto;
   border-bottom: 2px dashed #C0C0C0;
+  width: 42%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -180,9 +182,13 @@ header h1 {
   background-color: red;
 }
 header nav {
+  width: 50%;
   color: #212529;
   text-decoration: none;
   background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .footer {
   width: 100%;
