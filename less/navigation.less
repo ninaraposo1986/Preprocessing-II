@@ -6,7 +6,9 @@ header {
     .mainNav {
         .flexy(row, space-between);
         align-items: center;
-        
+        @media @mobile {
+            flex-direction: column;
+        }
     }
 
     h1 {
@@ -17,5 +19,9 @@ header {
         .topLinks();
         .flexy(row, space-evenly);
          align-items: center;
+         a {
+             text-decoration: none;
+             color: @shark;
+         }
     }
 }
